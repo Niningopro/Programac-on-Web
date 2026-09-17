@@ -1,36 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&display=swap');
-
 *{
     box-sizing: border-box;
 }
 
 body{
-    font-family: 'Orbitron', 'Segoe UI', sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0px;
     padding: 0px;
-    background-color: #0d0d1a;
-    background-image:
-        linear-gradient(rgba(0, 255, 255, 0.05) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(0, 255, 255, 0.05) 1px, transparent 1px);
-    background-size: 40px 40px;
-    color: #d0d0e0;
+    background-color: cornsilk;
 }
 
 header{
-    background-color: #10101f;
-    color: #00fff2;
+    background-color: #333333;
+    color: greenyellow;
     padding: 15px 25px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 2px solid #ff00c8;
-    box-shadow: 0 0 15px rgba(255, 0, 200, 0.4);
 }
 
 header .logo h1{
     margin: 0px;
-    letter-spacing: 2px;
-    text-shadow: 0 0 8px #00fff2, 0 0 20px #00fff2;
+    padding-left: 0px;
 }
 
 nav ul{
@@ -45,45 +35,32 @@ nav ul li{
 }
 
 nav ul li a{
-    color: #ff00c8;
+    color: greenyellow;
     text-decoration: none;
-    padding: 6px 14px;
-    border: 1px solid #ff00c8;
-    border-radius: 4px;
-    text-transform: uppercase;
-    font-size: 14px;
-    letter-spacing: 1px;
-    transition: 0.2s;
+    padding: 6px 12px;
+    border-radius: 6px;
 }
 
 nav ul li a:hover{
-    background-color: #ff00c8;
-    color: #10101f;
-    box-shadow: 0 0 12px #ff00c8;
+    background-color: #555555;
 }
 
 section{
-    background-color: #14142b;
+    background-color: white;
     padding: 20px;
-    color: #d0d0e0;
-    border: 1px solid #00fff2;
-    box-shadow: 0 0 15px rgba(0, 255, 242, 0.25);
-    border-radius: 8px;
+    color: #444444;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 12px;
     margin: 25px;
 }
 
 h2{
-    color: #ff00c8;
-    text-shadow: 0 0 8px rgba(255, 0, 200, 0.6);
-    text-transform: uppercase;
-    letter-spacing: 1px;
+    color: brown;
 }
 
 footer{
-    background-color: #10101f;
-    color: #00fff2;
+    background-color: saddlebrown;
+    color: cornsilk;
     text-align: center;
     padding: 15px;
-    border-top: 2px solid #ff00c8;
-    letter-spacing: 1px;
 }
